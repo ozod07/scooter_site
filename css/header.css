@@ -1,0 +1,126 @@
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+nav a:hover, .log-in:hover{
+    color: rgb(234, 130, 210);
+}
+nav a{
+    color: #42454A;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 100px;
+}
+nav .nav-item{
+    margin-right: 78px;
+}
+nav .log-in{
+    margin-right: 45px;
+}
+nav .sign-up:hover{
+    box-shadow: 0px 12px 25px -10px rgba(66, 69, 74, 0.30);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+nav .sign-up{
+    width: 106px;
+    height: 48px;
+    border-radius: 4px;
+    background: #42454A;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.nav-list, .nav-register{
+    margin-top: 15px;
+}
+header hr{
+    background: #EAE8F3;
+}
+.body{
+    display: flex;
+}
+.body-txt .title{
+    color: #42454A;
+    font-family: Ubuntu;
+    font-size: 90px;
+    font-style: normal;
+    text-align: start;
+    font-weight: 300;
+    line-height: 95px; /* 105.556% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    width: 586px;
+    margin-top: 87px;
+    margin-left: 50px;
+}
+.body-txt .title span{
+    font-weight: 700;
+}
+.body-txt hr{
+    width: 335px;
+    height: 4px;
+    background: #42454A;
+    margin-left: 50px;
+    margin-top: 93px;
+}
+.body-txt .txt, .buy-now, .watch-video{
+    display: inline-block;
+    color: #42454A;
+    font-family: Ubuntu;
+}
+.body-txt > div{
+    margin-top: 62px;
+    margin-left: 50px;
+}
+.body-txt .txt{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: start;
+    line-height: 34px; /* 154.545% */
+    letter-spacing: 0.22px;
+    width: 353px;
+    margin-top: 62px;
+    margin-left: 50px;
+}
+.body-txt .buy-now{
+    color: #17181A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.4px;
+}
+.body-txt .watch-video{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 138.889% */
+    letter-spacing: 0.18px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+.high_effiency_motor{
+    margin-top: 248px;
+    margin: 248px auto;
+}
+.title{
+    font-family: Ubuntu;
+    color: #42454A;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%; /* 60px */
+}
+.txt{
+    font-family: Ubuntu;
+    color: #42454A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}

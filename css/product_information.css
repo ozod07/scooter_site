@@ -1,0 +1,41 @@
+.product_information{
+    margin: 127px auto;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+
+}
+.product_information p:first-child{
+    color: #42454A;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 60px */
+}
+.product_information .txt{
+    color: #42454A;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+.property > div:first-child{
+    margin-top: 143px;
+}
+.property > div{
+    margin-bottom: 34px;
+    margin-right: 50px;
+}
+.property div > a{
+    color: #42454A;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}

@@ -1,0 +1,4 @@
+.colors img:last-child{
+    max-width: 1440px;
+    margin: -150px auto;
+}

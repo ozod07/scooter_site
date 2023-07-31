@@ -1,0 +1,30 @@
+.multiple-modes{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.golf-bag{
+    color: #42454A;
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 60px */
+}
+.property2{
+    margin-left: 50px;
+}
+.img{
+    margin-top: 120px;
+}
+.product2{
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    width: 570px;
+    height: 54px;
+    border-radius: 10px;
+    border: 2px solid #42454A;
+    text-align: center;
+    margin: 93px auto;
+}

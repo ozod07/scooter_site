@@ -1,0 +1,38 @@
+.gallery{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.gallery .imgs{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+}
+.gallery .imgs > img{
+    width: 633px;
+    height: 485px;
+}
+.gallery .img1{
+    margin-top: 311px;
+}
+.gallery .img2 img:first-child{
+    margin-bottom: 96px;
+    margin-top: 112px;
+}
+.gallery .img1 button:first-child{
+    margin-top: 55px;
+
+}
+.gallery .img1 button{
+    width: 570px;
+    height: 94px;
+    border-radius: 10px;
+    border: 2px solid #42454A;
+    color: #42454A;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 30px;
+    background-color: #fff;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 27px;
+}

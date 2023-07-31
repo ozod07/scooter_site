@@ -1,0 +1,84 @@
+.testimonials{
+    background-color: #FAFAFA;
+    width: 1440px;
+    height: 712px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 78px;
+    margin: 0 auto;
+}
+.testimonials .div-second{
+    margin-right: -200px;
+}
+.testimonials .div{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 52px 30px;
+    width: 360px;
+    height: 366px;
+    margin-right: 36px;
+    border: 1px solid #D8D8D8;
+}
+.testimonials .div:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+    cursor: pointer;
+    background: #FFF;
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(49, 49, 49, 0.02), 0px 20px 13px 0px rgba(49, 49, 49, 0.05), 0px 38.51852035522461px 25.481481552124023px 0px rgba(49, 49, 49, 0.06);
+}
+.testimonials .div .text{
+    width: 304px;
+    color: #42454A;
+    font-family: Ubuntu;
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+.testimonials .bio{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin-top: 47px;
+    margin-left: 50px;
+}
+.testimonials .bio div:last-child{
+    text-align: start;
+    margin-top: -10px;
+}
+.testimonials .bio div:last-child p:first-child{
+    color: #42454A;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+}
+.testimonials .bio div:last-child p:last-child{
+    color: #42454A;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -15px;
+    margin-left: -18px;
+}
+.testimonials .div span{
+    padding-top: 152px;
+    margin-bottom: 25px;
+}
+.testimonials .arrows{
+    margin-top: 43px;
+}
+.testimonials .arrows span:hover{
+    background-color: #42454A;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.testimonials .arrows span{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid #42454A;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-left: 30px;
+}
